@@ -1,4 +1,4 @@
-package main.algorithms.TwoSum.mergeSortedArray;
+package main.algorithms.mergeSortedArray;
 
 import java.util.Arrays;
 
