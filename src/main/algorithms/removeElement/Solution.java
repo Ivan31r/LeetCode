@@ -10,7 +10,7 @@ public class Solution {
         int[] nums = {0, 1, 2, 2, 3, 0, 4, 2};
         int val = 2;
         System.out.println("before remove = " + Arrays.toString(nums));
-        System.out.println("counter = " + removeElementV2(nums, val));
+        System.out.println("counter = " + removeElement(nums, val));
         System.out.println("after remove = " + Arrays.toString(nums));
     }
 
