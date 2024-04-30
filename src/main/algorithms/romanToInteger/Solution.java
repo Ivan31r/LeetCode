@@ -69,8 +69,7 @@ public class Solution {
             }
             char currentChar = s.charAt(index);
             char nextChar = s.charAt(index + 1);
-            if (COMPLEX_CHAR.contains(currentChar) &&
-                    (CHARACTER_INTEGER_MAP.get(nextChar) > CHARACTER_INTEGER_MAP.get(currentChar))) {
+            if (COMPLEX_CHAR.contains(currentChar) && (CHARACTER_INTEGER_MAP.get(nextChar) > CHARACTER_INTEGER_MAP.get(currentChar))) {
                 integerValue += CHARACTER_INTEGER_MAP.get(nextChar) - CHARACTER_INTEGER_MAP.get(currentChar);
                 skipIndex = index + 1;
             } else {

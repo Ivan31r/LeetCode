@@ -12,6 +12,8 @@ public class Solution {
 //        String inputString = "[";
 //        String inputString = "]";
 //        String inputString = "(({}))";
+        System.out.println(isValid(inputString));
+        System.out.println(isValidV1(inputString));
         System.out.println(isValidV2(inputString));
     }
 

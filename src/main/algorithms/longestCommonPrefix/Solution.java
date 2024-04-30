@@ -15,7 +15,7 @@ public class Solution {
 //                "car"
 //        };
 //        String[] strings = {""};
-        System.out.println(longestCommonPrefixV3(strings));
+        System.out.println(longestCommonPrefixV2(strings));
     }
 
 

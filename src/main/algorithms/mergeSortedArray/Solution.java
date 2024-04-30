@@ -21,7 +21,7 @@ public class Solution {
 //        int n = 3;
 
         System.out.println("before " + Arrays.toString(nums1));
-        mergeV2(nums1, m, nums2, n);
+        mergeV1(nums1, m, nums2, n);
         System.out.println("after " + Arrays.toString(nums1));
     }
 
